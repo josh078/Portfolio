@@ -35,16 +35,16 @@ a:hover {
 }
 
 .dark-blue-text {
-  color: $dark-blue-text !important;
+  color: $third-color !important;
 }
 
 .text-color-main {
-  @include supportColorForIE11();
+  color: $third-color;
   
   // Responsive text purple style
   @include respond(phone) {
     background-image: none;
-    -webkit-text-fill-color: $secondary-color;
+    -webkit-text-fill-color: $third-color;
   }
 
   &:hover {

@@ -1,5 +1,5 @@
 .footer {
-  background-color: $dark-grey;
+  background-color: $secondary-color;
   color: $white-color;
   padding: 4.8rem 0;
 
@@ -20,7 +20,7 @@
 
       &:hover,
       &:active {
-        color: $primary-color;
+        color: $third-color;
         -webkit-box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
         box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
       }
